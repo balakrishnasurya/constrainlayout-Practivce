@@ -15,6 +15,6 @@ class chains : AppCompatActivity() {
             val intent = Intent(this,consLayout::class.java)
             startActivity(intent)
         }
-        println("Hello experimental branch")
+        println("Hello ")
     }
 }
