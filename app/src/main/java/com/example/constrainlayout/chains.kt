@@ -14,6 +14,8 @@ class chains : AppCompatActivity() {
         profilebtn.setOnClickListener {
             val intent = Intent(this,consLayout::class.java)
             startActivity(intent)
+            println("Hello am changing the conent ")
+
         }
         println("Hello am changing the conent ")
         println("InExperimental branch")
